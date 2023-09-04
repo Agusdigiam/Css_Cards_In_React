@@ -1,0 +1,31 @@
+.Menu_Content{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+}
+
+li{
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and ( max-width: 760px ) {
+    .Menu_Content{
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    h1{
+        padding-bottom: 12px;
+    }
+    
+}
